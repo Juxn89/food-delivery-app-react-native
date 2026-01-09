@@ -1,0 +1,10 @@
+{ 
+	"recommendations": [
+		"burkeholland.simple-react-snippets",
+		"dsznajder.es7-react-js-snippets",
+		"rodrigovallades.es7-react-js-snippets",
+		"formulahendry.auto-close-tag",
+		"formulahendry.auto-rename-tag",
+		"expo.vscode-expo-tools"
+	] 
+}
