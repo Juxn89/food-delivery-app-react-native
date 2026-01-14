@@ -18,5 +18,10 @@
 - Assets: [jsmastery.com | Food Delivery Mobile App Assets](https://drive.google.com/drive/u/1/folders/1cO2k9gz_Z8P6AV7cL49x6bI6t1Ac0LOo)
 - React Native Guide: [jsmastery.com | Food Delivery Mobile Assets](https://drive.google.com/file/d/1CSzrl4ljyjTrGs-nLLZvr3sMmivjNotn/view)
 
+```
+npx expo install react-native-appwrite react-native-url-polyfill
+```
+
+
 ## Others
 - Uber Clone ➡️ Stripe Payment: [jsmastery.com | Uber Clone (YouTube)](https://youtu.be/kmy_YNhl0mw?t=14827)
