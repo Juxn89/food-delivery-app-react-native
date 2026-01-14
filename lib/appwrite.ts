@@ -3,4 +3,5 @@ export const appwriteConfig = {
 	projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
 	platform: 'com.jsm.foodordering',
 	projectName: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_NAME,
+	databaseId: process.env.EXPO_PUBLIC_APPWRITE_DB_ID,
 }
