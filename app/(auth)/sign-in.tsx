@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Link, router } from 'expo-router'
-import { Alert, Button, Text, View } from 'react-native'
+import { Alert, Text, View } from 'react-native'
 import { CustomButton, CustomInput } from '@/components'
+import { signIn } from '@/lib/appwrite'
 
 export default function SignIn() {
 	const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
@@ -14,7 +15,7 @@ export default function SignIn() {
 		setIsSubmitting(true)
 
 		try {
-			Alert.alert('Success', 'User signed in successfully')
+			await signIn({ ...form })
 			router.push('/')
 		} catch (error: any) {
 			Alert.alert('Error', error.message)
